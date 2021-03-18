@@ -1,0 +1,78 @@
+/*-------------BY ASCONA-------------------*/
+
+*{padding: 0;margin: 0; box-sizing: border-box;}
+.video-container {height: 95vh; position: relative;overflow: hidden;@media(min-width: 600px) { height: 100vh;}}
+
+  video {object-fit: cover;position: absolute;height: 100%;width: 100%;top: 0;left: 0;}
+  * {box-sizing: border-box;}
+  .video-container:after {content: '';display: block;height: 100%;width: 100%; position: absolute;top: 0;left: 0;background: rgba(black, .2);z-index: 1;}
+  
+  .logopeli{width: 90%; padding-bottom: 20px;}
+  
+  .callout { position: relative;display: flex;justify-content: center;align-items: left;flex-direction: column; height: 100%;text-align: left;}
+  .vol {position: absolute;justify-content: flex-end; align-items: right;bottom: 20%;display: flex;text-align: right;}
+  .wz h1,h3{color: white;}
+  .bg-tra{ background: rgba(109,109,110,0.4) !important;color: white !important;}
+  .bg-vol{ padding: 0 !important;border: 1px solid white !important;border-radius: 50% !important; color: white !important;width: 33px;height: 33px;}
+  p{color: white !important;font-size: 20px;line-height: 28px;}
+  .navbar-brand{color: #e50914 !important;font-size: 25px !important;font-weight: 700;text-transform: uppercase;vertical-align: middle;cursor: pointer;}
+.container{max-width: 1260px !important;}
+header{ width: 100%;position: fixed;z-index: 999;}
+.bg-home{
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,rgba(0,0,0,.7)),color-stop(10%,rgba(0,0,0,0))); 
+    background-image: -webkit-linear-gradient(top,rgba(0,0,0,.7) 10%,rgba(0,0,0,0)); 
+    background-image: -moz- oldlinear-gradient(top,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    background-image: -o-linear-gradient(top,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+}
+.bg-home.scrolled{background: black !important;}
+.navbar-nav a{color: #ffffff !important;}
+.ok{margin-top: -45px; position: relative;}
+.oka{padding-bottom: 3rem !important;}
+.ok1{ padding-bottom: 3rem !important;}
+.ok2{padding-bottom: 3rem !important;}
+.ok h4{ font-size: 20px;color: white !important;}
+.ok1 h4{font-size: 20px;color: white !important;}
+.ok2 h4{font-size: 20px; color: white !important;}
+.card{border: none !important;}
+.ok .row .col{padding-right: 1px !important;padding-left: 4px !important;}
+.ok1 .row .col{padding-right: 1px !important;padding-left: 4px !important;}
+.ok2 .row .col{padding-right: 1px !important; padding-left: 4px !important;}
+body{background: #141414 !important;color: #ffffff !important;}
+.bg-movil{background: #ffffff !important;}
+.navbar-light .navbar-toggler{
+  border-color: transparent !important;}
+.ok .card img:hover{transform: scale(1.2);transform-origin: center;z-index: 99;transition: .3s ease all;cursor: pointer;}
+.ok1 .card img:hover{ transform: scale(1.2);transform-origin: center;z-index: 99;transition: .3s ease all;cursor: pointer;}
+.ok2 .card img:hover{transform: scale(1.2);	transform-origin: center;z-index: 99;transition: .3s ease all;cursor: pointer;}
+.callout .button{cursor: pointer !important;}
+.wz h3{font-size: 24px;}
+
+
+/*-------------responsive-------------------*/
+
+@media (max-width: 576px) { 
+  .ok{margin-top: -40px !important;position: relative;}
+  .vol {position: absolute;bottom: 9%;}
+  .callout p{font-size: 16px;line-height: 26px;}
+  .ok h4{font-size: 16px;}
+  .ok1 h4{font-size: 16px;}
+  .ok2 h4{font-size: 16px;}
+  .oka {padding-bottom: 1.3rem!important;}
+.ok1 {padding-bottom: 1.3rem!important;}
+.ok2 {padding-bottom: 1.3rem!important;}
+.bg-home{background: black;color: white !important;}
+.bg-home li a{color: white !important;}
+ }
+ @media (max-width: 768px) { 
+  .ok{ margin-top: -50px !important; position: relative;}
+
+  .callout p{font-size: 17px;line-height: 27px;}
+
+  .logopeli{ width: 70%;padding-bottom: 20px;}
+  .bg-home{background: black;color: white !important;}
+.bg-home li a{color: white !important;}
+}
+.navbar-fixed-top.scrolled {background-color: #000 !important;transition: background-color 800ms linear;color: #ffffff !important;}
+.navbar-fixed-top.scrolled .nav-link {color:#fff !important;}
+
